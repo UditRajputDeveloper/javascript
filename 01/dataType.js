@@ -10,7 +10,11 @@ let isLoggedIn = false
 // bigint 
 // string => ""
 // boolean => true/false
-// null => standaloan value
+// null => standaloan value type Object
 // undefined => 
+// symbol => unique 
+// object 
 
+console.log(typeof undefined); // undefined
 
+// https://tc39.es/ecma262/#sec-intro
