@@ -24,17 +24,49 @@ const anotherId = Symbol('123')
 //Functions
 
 
-const num = ['1','2',3];
+// const num = ['1','2',3];
 
-let myobj = {
-    name:'udit',
-    age:'20'
-} 
+// let myobj = {
+//     name:'udit',
+//     age:'20'
+// } 
 
 
-const myfun = ()=>{
-    console.log('Hello Word');
+// const myfun = ()=>{
+//     console.log('Hello Word');
+// }
+
+
+// console.log(typeof myfun)
+
+
+//++++++++++++++++++++++++++++++++//
+
+// stack (primivite) , Heap(Non Primitive) 
+
+let name1 = 'youtube'
+
+let anouthername = name1
+anouthername = 'google'
+
+console.log(name1);
+console.log(anouthername);
+
+// Stack Primitive me Copy Provide Kiya jata h to orignal Value m change nhi hoga 
+
+let user1 = {
+    email:'user@google.com',
+    upi:'user@ybl'
 }
 
+let user2 = user1 
 
-console.log(typeof myfun)
+user2.email = 'Udit@gmail.com'
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
+// Stack m Refrance Diya Jata h 
+
